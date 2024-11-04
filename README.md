@@ -25,6 +25,8 @@ Before we can get going, we'll need to import the usual libraries.  In the cell 
 # Import necessary libraries below
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
+%matplotlib inline
 ```
 
 Now, let's get started by reading in the data from the `'titanic.csv'` file and storing it the DataFrame `df`. Subsequently, be sure to preview the data.
@@ -32,7 +34,7 @@ Now, let's get started by reading in the data from the `'titanic.csv'` file and 
 
 ```python
 # Use pandas to load the csv file
-df = None
+df = pd.read_csv("titanic.csv")
 
 ```
 
