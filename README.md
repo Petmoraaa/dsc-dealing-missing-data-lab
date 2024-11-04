@@ -48,7 +48,8 @@ We'll start by checking to see if the DataFrame contains **any** missing values 
 
 
 ```python
-# Your code here
+#missing value
+missing_values = df.isna().any()
 
 ```
 
